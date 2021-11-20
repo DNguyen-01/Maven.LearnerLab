@@ -7,10 +7,9 @@ public class Person {
     private final Long id;
 
 
+    public Person(String name, Long id){ //constructor is a way to initialize the object
 
-    public Person(String name, Long id){
-
-        this.name = name;
+        this.name = name; //instance variables that are being initialized
         this.id = id;
 
     }

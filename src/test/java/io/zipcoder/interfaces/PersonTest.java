@@ -12,6 +12,7 @@ public class PersonTest extends TestCase {
    private String expectedName = "Mikey";
    private final Long expectedId = 6969L;
 
+
     @Before
     public void setUp(){ //before each test, run this
 
@@ -20,7 +21,7 @@ public class PersonTest extends TestCase {
    }
 
    @Test
-    public void testGetName() {
+    public void testGetName() { //create an object to test the methods on
         //given
         //when
         String expectedName = "Mikey";
