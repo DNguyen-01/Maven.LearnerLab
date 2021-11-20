@@ -50,7 +50,8 @@ public class PeopleTest {
         Person actual = people.findByID(person1.getId());
         //then
         Assert.assertEquals(person1,actual);
-        Assert.assertNull(people.findByID(null));
+        Assert.assertNull(people.findByID(29L));
+
     }
 
 
